@@ -20,8 +20,9 @@ public class LoginTest {
         driver.findElement(By.id("send2")).click();
         // driver.quit();
     }
-    public static void main(String[] args){
-        LoginTest loginTest=new LoginTest();
+
+    public static void main(String[] args) {
+        LoginTest loginTest = new LoginTest();
         loginTest.validLoginTest();
-}
+    }
 }
