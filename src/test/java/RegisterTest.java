@@ -25,4 +25,9 @@ public class RegisterTest {
         driver.findElement(By.cssSelector("#form-validate > div.buttons-set > button")).click();
         //driver.quit();
     }
+
+    public static void main(String[] args) {
+        RegisterTest registerTest = new RegisterTest();
+        registerTest.validRegisterTest();
+    }
 }

@@ -2,17 +2,17 @@
 public class Main {
 
     public static void main(String[] args) {
-        LoginTest loginTest = new LoginTest();
-        loginTest.validLoginTest();
+    //    LoginTest loginTest = new LoginTest();
+    //    loginTest.validLoginTest();
 
-        RegisterTest registerTest = new RegisterTest();
-        registerTest.validRegisterTest();
+    //    RegisterTest registerTest = new RegisterTest();
+     //   registerTest.validRegisterTest();
 
-        CheckoutTest checkoutTest = new CheckoutTest();
-        checkoutTest.CheckoutTest();
+    //    CheckoutTest checkoutTest = new CheckoutTest();
+     //   checkoutTest.CheckoutTest();
 
-        WishListTest wishListTest = new WishListTest();
-        wishListTest.validWishlistAdd();
+     //   WishListTest wishListTest = new WishListTest();
+      //  wishListTest.validWishlistAdd();
 
     }
 

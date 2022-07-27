@@ -13,4 +13,9 @@ public class CheckoutTest {
         driver.findElement(By.cssSelector("#header-account > div > ul > li:nth-child(4) > a")).click();
 
     }
+
+    public static void main(String[] args) {
+        CheckoutTest checkoutTest = new CheckoutTest();
+        checkoutTest.CheckoutTest();
+    }
 }

@@ -19,4 +19,8 @@ public class WishListTest {
         driver.findElement(By.cssSelector("body > div > div.page > div.main-container.col3-layout > div > div.col-wrapper > div.col-main > div.category-products > ul > li > div > div.actions > ul > li:nth-child(1)")).click();
     }
 
+    public static void main(String[] args) {
+        WishListTest wishListTest = new WishListTest();
+        wishListTest.validWishlistAdd();
+    }
 }
